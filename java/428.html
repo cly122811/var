@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    document.write("<h1>hello world!</h1>")
+    var a = 10
+    var b = 20
+    document.write(a + b)
+    document.write('<br>')
+
+    var i = 0
+    while ( i <= 1000000 ) {
+      document.write( i + '<br>')
+      i++
+    }
+    document.write('<br>')
+
+    function whoisbigger(x,y) {
+      if (x>y){
+        return x
+      } else {
+        return y
+      }
+    }
+    document.write(whoisbigger(1,2))
+    document.write('<br>')
+    document.write(whoisbigger(12,2))
+    document.write('<br>')
+    document.write(whoisbigger(1,23))
+    document.write('<br>')
+    document.write(whoisbigger(1123,2324))
+    document.write('<br>')
+    document.write(whoisbigger(1213,342))
+    document.write('<br>')
+    document.write(whoisbigger(51,122))
+    document.write('<br>')
+    document.write(whoisbigger(156,982))
+
+    document.write('<br>'+ Math.random())
+    document.write('<br>'+ Math.random())
+    document.write('<br>'+ Math.random())
+    document.write('<br>'+ Math.random())
+    document.write('<br>'+ Math.random())
+    document.write('<br>'+ Math.random())
+    document.write('<br>'+ Math.floor(Math.random()*10))
+
+    function bark (weight){
+      if(weight>=15){
+        return 'wang wang wang!'
+      }else {
+        return'wu wu wu!'
+      }
+    }
+    document.write('<br>'+'富贵' + bark(45))
+    document.write('<br>'+'旺财' + bark(5))
+    
+    document.write('<br>')
+    var arr=[2,6,'x','y']
+    for(var i=0; i<=arr.length; i++){
+      document.write(arr[i])
+    }
+    arr[0]='a'
+
+    var person=['老师','小米','Tony']
+    var times=['清晨','傍晚','中午']
+    var ground=['教室','饭店','书店']
+    var thing=['批试卷','吃饭','买书'
+    p=Math.floor(Math.random()*person.length)
+    p=Math.floor(Math.rand
+    document.write(person[p]+'在'+ground[g]+thing[t])
+  </script>
+</body>
+</html>
