@@ -1,0 +1,29 @@
+=<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id='headText'>我是一个标题</h1>
+  <script>
+   var car ={
+     color:'blue',
+     energy:60,
+     speed:80,
+     stop: function() {
+       this.speed=0
+     }
+   }
+   car.stop()
+   document.write(car.speed)
+   car.stop()
+   document.write('aaaa')
+   theElement =document.getElementById('headText')
+   theElement.innerHTML = '猜猜我是谁！'
+   theElement.getAttribute.style = "'color','blue'"
+  </script> 
+</body>
+</html>
