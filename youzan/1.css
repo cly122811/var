@@ -1,0 +1,396 @@
+body{
+    margin:0;
+}
+a{
+    text-decoration:none;
+    cursor: pointer;
+}
+
+p, q,  ul, var {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+html, body {
+	min-width: 1100px;
+	color: #2c3a46;
+	background: #fff;
+	font-size: 14px;
+	line-height: 1.6em;
+	font-family: Helvetica, "Pingfang SC", "Microsoft YaHei", STHeiti, Verdana, Arial, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+.container {
+	margin: 0 auto;
+	width: 1100px;
+}
+
+.container.main-container {
+	min-height: 400px;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.hide {
+	display: none;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.cly {
+	width: 100%;
+	min-width: 1100px;
+	height: auto;
+	position: relative;
+	background: #ffffff;
+	border-bottom: 1px solid #ededed;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+	z-index: 200;
+	transition: all 0.5s ease-in;
+}
+
+
+.cly a {
+	text-decoration: none;
+}
+
+.cly ul {
+	list-style: none;
+}
+
+.cly .yyqx {
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 1100px;
+	height: 70px;
+	zoom: 1;
+}
+
+
+
+.cly .yyqx:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.cly .yyqx .logo {
+	display: inline-block;
+	width: 72px;
+	height: 25px;
+	margin-top: 22.5px;
+	background-size: 72px 25px;
+    background-image: url("./static/8fc4cd6f771897cbf9663166a63a5302.png");
+}
+
+
+
+.cly .yyqx .cy {
+	display: inline-block;
+	width: 60px;
+	margin-left: 10px;
+	margin-bottom: -1px;
+}
+
+.cly .yyqx .cy p {
+	float: left;
+	width: 78px;
+	color: #999;
+	font-size: 10px;
+	font-family: 'PingFang SC';
+	font-weight: 300;
+	line-height: 13px;
+}
+
+.cly .yyqx .cq {
+	float: right;
+    zoom: 1;
+    margin: 0;
+}
+
+.cly .yyqx .cq:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.cly .yyqx .cq > li {
+	float: left;
+	display: inline-block;
+	height: 70px;
+	line-height: 70px;
+	padding: 0px 20px;
+	margin-right: 16px;
+}
+
+
+.cly .yyqx .cq > li .product-center {
+	text-decoration: none;
+	color: #2c3a46;
+}
+
+.cly .yyqx .cq > li .product-center:hover {
+	color: #FF4444;
+}
+
+.cly .yyqx .cq .caret-margin {
+	margin-right: 16px;
+}
+
+.cly .yyqx .cq .current-highlight {
+	color: #FF4444 !important;
+}
+
+.cly .yyqx .cq .current-highlight .caret:after {
+	border-top-color: #FF4444;
+}
+
+.cly .yyqqx .cq .product-dropdown {
+	z-index: 200;
+}
+
+.cly .yyqx .cq .product-dropdown div.active {
+	background: #f8f8f8;
+}
+
+.cly .yyqqx .cq .product-dropdown:hover .caret:after {
+	border-top-color: #FF4444;
+}
+
+.cly .yyqqx .cq .product-dropdown:hover .product-center {
+	color: #FF4444;
+}
+
+
+
+
+
+.cly .yyqx .caret {
+	position: relative;
+	display: inline-block;
+}
+
+.cly .yyqx .caret:after, .cly .yyqx .caret:before {
+	content: ' ';
+	height: 0;
+	width: 0;
+	top: 100px;
+	position: absolute;
+	left: 5px;
+	border: 5px solid transparent;
+}
+
+.cly .yyqx .caret:before {
+	border-top-color: #ffffff;
+	top: -9px;
+	z-index: 2;
+}
+
+.cly .yyqx .caret:after {
+	border-top-color: #333;
+	top: -7px;
+	z-index: 1;
+}
+
+.cly .yyqx .bcc {
+	margin: 0 auto;
+	width: 1100px;
+	border-top: 1px solid #e5e5e5;
+	padding: 20px 0px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+
+.cly .yyqx .bcc .bottom-contact {
+	font-size: 12px;
+	line-height: 30px;
+	color: #666;
+}
+
+.cly .yyqx .bcc .bottom-contact .dividing-line {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.cly .yyqx li.login {
+	padding: 0px 0px 0px 20px;
+}
+
+.cly .yyqx li.reg {
+	padding: 0px 0px 0px 10px;
+}
+
+.cly .yyqx .zwj-1 {
+	width: 80px;
+	height: 30px;
+	line-height: 28px;
+	display: inline-block;
+	border: 1px solid #2B90ED;
+	color: #2B90ED;
+	text-align: center;
+	border-radius: 2px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.cly .yyqx .zwj-1:hover {
+	background-color: #2B90ED;
+	color: #FFFFFF;
+}
+
+.cly .yyqx .xzpq-1 {
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+	background-color:  #2B90ED;
+	color: #ffffff;
+	text-align: center;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.cly .yyqqx .xzpq-1:hover {
+	background-color: #2B90ED;
+	color: #ffffff;
+}
+
+
+
+.qp{
+    background-image: url(./static/cly.jpg);
+    height: 420px;
+    width: 100%;
+    background-size: cover;
+    background-position: 50%;
+}
+.mg{
+    position: absolute;
+    width: 1100px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    color: #fff;
+}
+.mg h3{
+    font-size: 44px;
+    margin: 200px 0 7px;
+    line-height: 62px;
+}
+.mg p{
+    font-size: 20px;
+    margin-bottom: 55px;
+}
+.mg a{
+    background-color: #fff;
+    padding: 12px 42px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 2px;
+    color: #eb737f;
+}
+.mg small{
+	font-size: 14px;
+	color: #777;
+	margin-top: 15px;
+	display: block;
+}
+
+.tz{
+    width: 100%;
+    display: table;
+    margin: 1rem 0;
+}
+.tz .main{
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    zoom: 1;
+}
+.tz .main:after {clear: both;height: 0;overflow: hidden;display: block;visibility: hidden;content: ".";}
+
+
+.tz .main h2{
+    font-family: PingFangSC-Medium;
+    font-size: 28px;
+    color: #333;
+    letter-spacing: 0;
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    line-height: 40px;
+    padding: 90px 0;
+}
+.tz .a .xg{
+    width: 35%;
+    float: left;
+}
+.tz .a .xg p{
+    margin-bottom: 28px;
+    color: #333;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: PingFangSC-Medium;
+    letter-spacing: 0;
+    width: 100%;
+    display:block;
+}
+.tz .a .xh p span{
+    margin-top: 5px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #999;
+    letter-spacing: 0;
+    line-height: 24px;
+    width: 100%;
+    display:block;
+}
+
+
+
+ .tz .blm a{
+    background-color: #fff;
+    color: #38f;;
+    font-size: 14px;
+    padding: 10px 42px;
+    border-radius: 2px;
+    display: inline-block;
+    border: 1px solid #38f;
+}
+.tz .a .blm a.xj{
+    background-color: #38f;
+    color: #fff;
+}
+.tz .a .r{
+    width: 65%;
+    float: right;
+    text-align: center;
+}
